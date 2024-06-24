@@ -1,0 +1,96 @@
+html, body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.generator-container {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+  width: 45%;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.generator-container .new-password {
+  width: 70%;
+}
+.generator-container .btn {
+  height: 50px;
+  width: 50px;
+  margin: 21px 0 0 0;
+  border-radius: 7px;
+  border: none;
+  background: none;
+}
+.generator-container .btn-copy {
+  background-image: url(/media/copy.svg);
+  background-position: top 2px left 2px;
+  background-repeat: no-repeat;
+}
+.generator-container .btn-reset {
+  background-image: url(/media/reset.svg);
+  background-position: top 2px left 2px;
+  background-repeat: no-repeat;
+}
+
+.options {
+  display: flex;
+  width: 45%;
+  border: 2px solid black;
+  height: 30%;
+  border-radius: 7px;
+}
+
+form {
+  width: 100%;
+}
+
+.form-range {
+  display: flex;
+  justify-content: flex-start;
+  height: 32%;
+  align-items: center;
+  gap: 2%;
+  margin-top: 2%;
+}
+
+.settings {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  padding-right: 7%;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group input {
+  height: 20px;
+  width: 20px;
+}
+
+label {
+  font-size: 1.2em;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
