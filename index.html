@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <div class="generator-container">
-            <span class="new-password"></span>
+            <span id="password"></span>
             <div>
                 <button class="btn btn-copy"></button>
                 <button class="btn btn-reset"></button>
@@ -22,26 +22,27 @@
         <div class="options">
             <form action="#" method="get">
                 <div class="form-range">
-                    <label for="">Pass length</label>
-                    <input type="range" name="" id="">
+                    <label for="change_value">Pass length</label>
+                    <input type="range" name="" id="change-value" min="0" max="18" value="1">
+                    <span id="display-number"></span>
                 </div>
                 <div class="settings">
                     <div class="checkbox-container">
                         <div class="form-group">
-                            <label for="number-checkbox">Only Number</label>
-                            <input type="checkbox" name="" id="number-checkbox">
+                            <label for="number-checkbox">Only Numbers</label>
+                            <input type="checkbox" class =checkbox name="" id="number-checkbox">
                         </div>
                         <div class="form-group">
-                            <label for="letter-checkbox">Only Letter</label>
-                            <input type="checkbox" name="" id="letter-checkbox">
+                            <label for="letter-checkbox">Only Letters</label>
+                            <input type="checkbox" class="checkbox" name="" id="letter-checkbox">
                         </div>
                         <div class="form-group">
                             <label for="specialC-checkbox">Special caracters</label>
-                            <input type="checkbox" name="" id="specialC-checkbox">
+                            <input type="checkbox" class="checkbox" name="" id="special-characters-checkbox">
                         </div>
                         <div class="form-group">
-                            <label for="mixin-checkbox">Mix in</label>
-                            <input type="checkbox" name="" id="mixin-checkbox">
+                            <label for="mixin-checkbox">Mix-in</label>
+                            <input type="checkbox" class="checkbox" name="" id="mixin-checkbox">
                         </div>
                     </div>
                 </div>
